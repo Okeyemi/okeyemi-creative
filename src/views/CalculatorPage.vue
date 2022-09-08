@@ -19,7 +19,8 @@
      <button @click="pressed('8')" class="px-2 w-10 h-10 border rounded shadow">8</button>
      <button @click="pressed('9')"  class="px-2 w-10 h-10 border rounded shadow">9</button>
      <button @click="pressed('*')" class="px-2 w-10 h-10 border rounded shadow">*</button>
-     <button @click="pressed('0')" class="p-2 h-10 border rounded shadow col-span-2">0</button>
+     <button @click="pressed('0')" class="p-2 h-10 border rounded shadow">0</button>
+     <button @click="pressed('C')" class="p-2 h-10 border rounded shado">C</button>
      <button @click="pressed('=')" class="p-2 w-10 h-10 border rounded shadow">=</button>
      <button @click="pressed('/')" class="px-2 w-10 h-10 border rounded shadow">/</button>   
     </div>
