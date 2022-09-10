@@ -1,7 +1,7 @@
 <template>
     <nav class="w-full bg-gradient-to-r from-blue-800 to-blue-600 text-white py-4 top-0">
     <router-link class="mx-2" to="/">Home</router-link>
-    <router-link class="mx-2" to="/Calendar-/">Calendar</router-link>    
+    <router-link class="mx-2" to="/CalendarPage/">Calendar</router-link>    
      <router-link class="mx-2" to="/slider/">Slider</router-link>
      <router-link class="mx-2" to="/CalculatorPage/">Calculator</router-link>
     <router-link class="mx-2" to="/AboutPage/">About</router-link>
