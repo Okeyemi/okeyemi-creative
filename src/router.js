@@ -12,7 +12,7 @@ const routes = [{
     },
     {
         path: '/CalendarPage',
-        name: 'CalendarPage',
+        name: 'CalendsrPage',
         component: CalendarPage,
     },
 
