@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from './views/HomePage'
 import CalendarPage from './views/CalendarPage'
 import CalculatorPage from './views/CalculatorPage'
+import ApplicationForm from './views/ApplicationForm'
 import AboutPage from './views/AboutPage'
 
 const routes = [{
@@ -20,7 +21,11 @@ const routes = [{
         name: 'CalculatorPage',
         component: CalculatorPage,
     },
-
+    {
+        path: '/ApplicationForm',
+        name: 'ApplicationForm',
+        component: ApplicationForm,
+    },
     {
         path: '/AboutPage',
         name: 'AboutPage',
